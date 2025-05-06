@@ -1,7 +1,7 @@
 # React Component Practice
 
 ## Live Demo:
-Link Here
+https://samuel-curtis.github.io/component-practice/
 
 ## Description:
 This project is a React/TypeScript application designed as a learning playground to explore and showcase various components in an interactive environment. It features a sidebar with dropdown menus organizing components into different categories, allowing users to seamlessly select and view different components in the main content area.
