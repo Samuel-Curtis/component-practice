@@ -1,0 +1,98 @@
+/* Main Sidebar */
+
+.sidebar {
+    align-items: center;
+    background-color: #353535;
+    padding: 0;
+    overflow-x: visible;
+}
+
+.sidebar-title {
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.component-list {
+    width: 100%;
+}
+
+/* Category Section Styles */
+
+.category-section {
+    width: 100%;
+    background-color: #3C6E71;
+}
+
+.btn-category-section {
+    width: 100%;
+    font-size: 24px;
+    background-color: #5390B9;
+    color: white;
+    padding: .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    transition: .5s;
+    margin-bottom: 1px;
+}
+
+.btn-category-section:hover {
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.btn-icon {
+    margin-left: 1rem;
+    transition: .5s;
+}
+
+.animate {
+    transform: rotate(90deg)
+}
+
+.item-list-wrapper {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+}
+
+.collapsed {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.expanded {
+    max-height: 10rem;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.list-item {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    background-color: #70B0B4;
+    color: white;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.list-item:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.selected:hover {
+    font-size: 18px;
+    cursor: default;
+}

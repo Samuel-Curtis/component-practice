@@ -1,0 +1,31 @@
+.main-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.main-component-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.main-component-wrapper {
+    border: solid black 2px;
+    background-color: #EFF3FE;
+    padding: 1rem;
+    min-width: 80%;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px black;
+}
+
+.inspiration-link {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #5390B9;
+}
+

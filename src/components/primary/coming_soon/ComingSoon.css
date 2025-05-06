@@ -1,0 +1,27 @@
+
+.coming-soon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.name {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 12px;
+}
