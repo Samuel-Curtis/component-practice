@@ -14,7 +14,7 @@
 .main-component-wrapper {
     border: solid black 2px;
     background-color: #EFF3FE;
-    padding: 1rem;
+    padding: 1.5rem;
     min-width: 80%;
     min-height: 60%;
     display: flex;

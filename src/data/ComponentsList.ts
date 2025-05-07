@@ -1,4 +1,5 @@
 import ComingSoon from "../components/primary/coming_soon/ComingSoon";
+import Analytics from "../components/ui_elements/analytics/Analytics";
 import EnterPassword from "../components/ui_elements/enter_password/EnterPassword";
 import GroceryList from "../components/ui_elements/grocery_list/GroceryList";
 import { ComponentItem } from "../models/ComponentItem";
@@ -14,7 +15,7 @@ export const components: ComponentItem[] = [
         name: 'Analytics',
         category: 'UI Element',
         inspiration: 'https://www.uidesigndaily.com/posts/figma-analytics-statistics-day-1567',
-        component: ComingSoon 
+        component: Analytics 
     },
     {
         name: 'Grocery List',
