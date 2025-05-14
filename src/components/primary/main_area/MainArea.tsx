@@ -13,7 +13,6 @@ function MainArea(props: MainAreaProps) {
     let comingSoon: boolean = props.selectedItem.component === ComingSoon;
 
     return(
-    <>
         <div className="main-area m1-64 p-8 flex-1 h-screen">
             <h1 className="main-component-title">{props.selectedItem.name}</h1>
             {
@@ -29,7 +28,6 @@ function MainArea(props: MainAreaProps) {
                 }
             </div>
         </div>
-    </>
     )
 }
 

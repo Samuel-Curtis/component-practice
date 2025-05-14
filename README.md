@@ -13,5 +13,5 @@ This project was built using Vite, and it was created to deepen my understanding
 - Finish components that were initially planned 
   - ~~Analytics Screen~~
   - Debt Payoff Calculator
-  - Financial Independence Calculator
+  - ~~Financial Independence Calculator~~
 - Include more categories  

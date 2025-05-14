@@ -1,3 +1,4 @@
+import FireCalculator from "../components/finance/fire_calculator/FireCalculator";
 import ComingSoon from "../components/primary/coming_soon/ComingSoon";
 import Analytics from "../components/ui_elements/analytics/Analytics";
 import EnterPassword from "../components/ui_elements/enter_password/EnterPassword";
@@ -33,6 +34,6 @@ export const components: ComponentItem[] = [
         name: 'Fiancial Independence Calculator',
         category: 'Finance',
         inspiration: '',
-        component: ComingSoon 
+        component: FireCalculator 
     }
 ]
