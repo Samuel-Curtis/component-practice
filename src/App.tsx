@@ -11,18 +11,15 @@ function App() {
   const [selectedComponent, setSelectedComponent] = useState<ComponentItem>(components[0])
   
   return (
-    <>
-      <div className='flex'>
-        <Sidebar
-          allComponents={components} 
-          selectedItem={selectedComponent}  
-          setSelectedItem={setSelectedComponent}
-        />
+    <div className='flex'>
+      <Sidebar
+        allComponents={components} 
+        selectedItem={selectedComponent}  
+        setSelectedItem={setSelectedComponent}
+      />
 
-        <MainArea selectedItem={selectedComponent} />
-      </div>
-      
-    </>
+      <MainArea selectedItem={selectedComponent} />
+    </div>
   )
 }
 
